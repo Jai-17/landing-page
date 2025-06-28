@@ -27,11 +27,11 @@ const LandingPage = () => {
             className="text-gray-950 tracking-wider flex gap-1"
           >
             <Award className="w-5 h-5" />
-            Award Winning NGO
+            Inspired by Dr. APJ Abdul Kalam
             <Award className="w-5 h-5" />
           </motion.p>
           <SplitText
-            text="Streamline Carbon Contributions with Integrity"
+            text="Empowering Communities Through Education & Innovation"
             className="text-6xl font-semibold max-w-3xl mx-auto text-center"
           />
           <motion.div
@@ -40,8 +40,8 @@ const LandingPage = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg text-center max-w-2xl mx-auto mt-2"
           >
-            The platform for planning, managing and reporting every carbon
-            contribution with ease and guaranteed authenticity.
+            At Kalam Foundation, we strive to nurture young minds, empower women,
+            and uplift underprivileged communities through holistic education and skill development.
           </motion.div>
         </div>
 
@@ -51,9 +51,9 @@ const LandingPage = () => {
           transition={{ delay: 0.5, duration: 1 }}
           className="flex gap-4"
         >
-          <Button className="py-5 px-10 rounded-full">Get Started</Button>
+          <Button className="py-5 px-10 rounded-full">Get Involved</Button>
           <Button variant="outline" className="py-5 px-10 rounded-full">
-            See Demo
+            Explore Programs
           </Button>
         </motion.div>
 
@@ -66,7 +66,7 @@ const LandingPage = () => {
           <div className="bg-white rounded-xl overflow-hidden">
             <Image
               src="/landing.png"
-              alt="landing"
+              alt="Kalam Foundation Banner"
               className="rounded-2xl w-full h-auto block"
               width={1500}
               height={650}
@@ -93,15 +93,13 @@ const LandingPage = () => {
       <section className="flex flex-col items-center bg-white border-0 rounded-3xl">
         <div className="max-w-4xl my-[50vh] text-center px-4">
           <ScrollReveal containerClassName="h-[100vh]">
-            Science is unambiguous: achieving net-zero requires carbon removal.
-            And compliance is in forward motion.
+            True development begins with education and dignity for all.
           </ScrollReveal>
           <ScrollReveal containerClassName="h-[50vh]">
-            Yet, carbon contributions persistently face exposure to greenwashing
-            and are notoriously complex to navigate.
+            Yet, millions in India remain untouched by opportunity and support.
           </ScrollReveal>
           <ScrollReveal containerClassName="h-[20vh]">
-            We're changing that.
+            Kalam Foundation is changing that.
           </ScrollReveal>
         </div>
       </section>
@@ -122,7 +120,7 @@ const LandingPage = () => {
             viewport={{ margin: "-200px", once: true }}
             className="font-semibold text-5xl"
           >
-            What we do...
+            What We Do
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -131,36 +129,30 @@ const LandingPage = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-slate-700 max-w-xl text-center"
           >
-            All the digital solutions you need… in one agency We work with you
-            from concept to launch, and beyond, bringing your ideas to life and
-            driving measurable results.
+            From basic education and digital literacy to women’s empowerment and youth mentorship —
+            we bring sustainable change, one life at a time.
           </motion.p>
         </div>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          animate={{
-            transition: { type: spring },
-          }}
+          animate={{ transition: { type: spring } }}
           className="my-20 flex gap-5"
         >
           <FeatureCard
-            title="Easy File Transfer"
-            subtitle="Send and request files from your team.
-Collaborate with easy file sharing."
+            title="Child Education"
+            subtitle="Foundational learning programs in English, Math, and Science."
             image="/feature-graphic.png"
           />
           <FeatureCard
-            title="Easy File Transfer"
-            subtitle="Send and request files from your team.
-Collaborate with easy file sharing."
+            title="Women Empowerment"
+            subtitle="Skill training, financial literacy, and livelihood support."
             image="/feature-graphic.png"
           />
           <FeatureCard
-            title="Easy File Transfer"
-            subtitle="Send and request files from your team.
-Collaborate with easy file sharing."
+            title="Community Outreach"
+            subtitle="Health camps, career guidance, and rural support drives."
             image="/feature-graphic.png"
           />
         </motion.div>
@@ -171,7 +163,6 @@ Collaborate with easy file sharing."
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ margin: "-200px", once: true }}
             className="bg-white border-gray-100 px-2 py-0.5 drop-shadow-black/15 drop-shadow-xs rounded-xl"
           >
             Who We Help
@@ -179,82 +170,60 @@ Collaborate with easy file sharing."
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ margin: "-200px", once: true }}
             className="font-semibold text-5xl flex gap-2 items-center"
           >
-            We are for{" "}
+            We Uplift{" "}
             <RotatingText
-              texts={["NGOs", "Students", "Children", "Everyone!"]}
-              mainClassName="px-2 sm:px-2 md:px-3 bg-amber-400 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
-              staggerFrom={"last"}
-              initial={{ y: "100%" }}
-              animate={{ y: 0 }}
-              exit={{ y: "-120%" }}
-              staggerDuration={0.025}
-              splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-              transition={{ type: "spring", damping: 30, stiffness: 400 }}
+              texts={["Underprivileged", "Students", "Women", "Youth"]}
+              mainClassName="px-2 bg-amber-400 text-white py-1 rounded-lg"
               rotationInterval={2000}
             />
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ margin: "-200px", once: true }}
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-slate-700 max-w-xl text-center"
           >
-            All the digital solutions you need… in one agency We work with you
-            from concept to launch, and beyond, bringing your ideas to life and
-            driving measurable results.
+            Our mission reaches every section of society — from urban slums to remote villages — wherever hope is needed.
           </motion.p>
         </div>
+
+        {/* Placeholder TiltedCards */}
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          animate={{
-            transition: { type: spring },
-          }}
+          animate={{ transition: { type: spring } }}
           className="my-20 flex gap-10"
         >
+          {/* Replace with Kalam Foundation event or gallery images */}
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-            captionText="Kendrick Lamar - GNX"
-            altText="Kendrick Lamar - GNX Album Cover"
+            imageSrc="/kalam1.jpg"
+            captionText="Literacy Drive"
+            altText="Literacy Drive"
             rotateAmplitude={12}
             showMobileWarning={false}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="relative w-full h-full [perspective:800px] flex flex-col items-center justify-center">
-                Kendrick Lamar - GNX
-              </p>
-            }
+            overlayContent={<p>Village Outreach</p>}
           />
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-            captionText="Kendrick Lamar - GNX"
-            altText="Kendrick Lamar - GNX Album Cover"
+            imageSrc="/kalam2.jpg"
+            captionText="Vocational Training"
+            altText="Training Program"
             rotateAmplitude={12}
             showMobileWarning={false}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="relative w-full h-full [perspective:800px] flex flex-col items-center justify-center">
-                Kendrick Lamar - GNX
-              </p>
-            }
+            overlayContent={<p>Women Empowerment</p>}
           />
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-            captionText="Kendrick Lamar - GNX"
-            altText="Kendrick Lamar - GNX Album Cover"
+            imageSrc="/kalam3.jpg"
+            captionText="Youth Workshop"
+            altText="Youth Workshop"
             rotateAmplitude={12}
             showMobileWarning={false}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="relative w-full h-full [perspective:800px] flex flex-col items-center justify-center">
-                Kendrick Lamar - GNX
-              </p>
-            }
+            overlayContent={<p>Career Mentorship</p>}
           />
         </motion.div>
       </section>
@@ -264,29 +233,23 @@ Collaborate with easy file sharing."
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ margin: "-200px", once: true }}
             className="font-semibold text-5xl"
           >
-            Contact us Toll Free!
+            Contact Kalam Foundation
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ margin: "-200px", once: true }}
             className="text-slate-700 max-w-xl text-center"
           >
-            Drop us a message or book a quick call. Whether it’s revamping a
-            full-blown site or nurturing the kernel of an idea, we’re here to
-            make it happen.
+            Reach out to volunteer, collaborate, or donate. Together, we can build a better tomorrow.
           </motion.p>
         </div>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          animate={{
-            transition: { type: spring },
-          }}
+          animate={{ transition: { type: spring } }}
           className="my-10"
         >
           <ContactUsForm />
@@ -297,14 +260,13 @@ Collaborate with easy file sharing."
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ margin: "-200px", once: true }}
           className="flex flex-col items-center"
         >
           <p className="text-neutral-400 font-medium">
-            700k+ People have been helped by us ✨
+            50,000+ Lives Transformed ❤️
           </p>
           <h2 className="text-5xl font-semibold max-w-3xl text-center mb-15">
-            Helping Lumers streamline their workflow and deliver faster 🚀
+            Join us in making education and dignity universal rights — not privileges.
           </h2>
         </motion.div>
         <Masonry />
@@ -313,7 +275,6 @@ Collaborate with easy file sharing."
       <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ margin: "-200px", once: true }}
         className="mt-20"
       >
         <Footer />

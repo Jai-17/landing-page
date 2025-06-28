@@ -6,20 +6,22 @@ const Footer = () => {
       {/* Top CTA Section */}
       <div className="flex flex-col md:flex-row items-center justify-between mb-12 text-center md:text-left">
         <h2 className="text-3xl md:text-5xl font-semibold max-w-xl">
-          Experience the power of our{" "}
+          Join hands with{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
-            AI Site Builder
+            Kalam Foundation
           </span>{" "}
-          today
+          to create a brighter future
         </h2>
         <div className="mt-6 md:mt-0 flex flex-col items-center">
           <Button
             href="#"
-            className="hover:bg-neutral-800 text-white px-12 py-6 text-lg"
+            className="hover:bg-[#1D2D44] bg-[#3E5C76] text-white px-12 py-6 text-lg"
           >
-            ✨ Get Started
+            ✨ Get Involved
           </Button>
-          <p className="text-gray-500 mt-2">Build a website in under 5 minutes. Yes really.</p>
+          <p className="text-gray-500 mt-2">
+            Volunteer, Donate, or Partner with us today.
+          </p>
         </div>
       </div>
 
@@ -28,71 +30,53 @@ const Footer = () => {
       {/* Links Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
         <div>
-          <h4 className="font-semibold text-black mb-4">Product</h4>
+          <h4 className="font-semibold text-black mb-4">Our Work</h4>
           <ul className="space-y-2">
-            <li>What's New</li>
-            <li>AI Site Builder</li>
-            <li>Webflow Library</li>
-            <li>Figma Library</li>
-            <li>React Library</li>
-            <li>Chrome Extension</li>
-            <li>Libraries</li>
-            <li>Pricing</li>
+            <li>Education Programs</li>
+            <li>Women Empowerment</li>
+            <li>Skill Development</li>
+            <li>Community Outreach</li>
+            <li>Innovation Labs</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-semibold text-black mb-4">Power ups</h4>
+          <h4 className="font-semibold text-black mb-4">Get Involved</h4>
           <ul className="space-y-2">
-            <li>Relume Icons</li>
-            <li>Color Palettes</li>
-            <li>Attributes</li>
-            <li>Untitled UI</li>
-            <li>Learn</li>
-            <li>Webflow Style Guide</li>
-            <li>Client-First Docs</li>
+            <li>Volunteer</li>
+            <li>Donate</li>
+            <li>Partner with Us</li>
+            <li>Internships</li>
+            <li>Events & Workshops</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-semibold text-black mb-4">Community</h4>
+          <h4 className="font-semibold text-black mb-4">Resources</h4>
           <ul className="space-y-2">
-            <li>Community Roadmap</li>
-            <li>Community Love</li>
-            <li>Showcase</li>
-            <li>Inspiration Feed</li>
-            <li>Slack</li>
-            <li>Request Components</li>
-            <li>Provide Feedback</li>
-            <li>Hire an Expert</li>
-            <li>Become an Expert</li>
-            <li>Become an Affiliate</li>
+            <li>Annual Reports</li>
+            <li>Success Stories</li>
+            <li>Media Gallery</li>
+            <li>Press Kit</li>
+            <li>Blog</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-semibold text-black mb-4">Company</h4>
+          <h4 className="font-semibold text-black mb-4">Connect</h4>
           <ul className="space-y-2">
-            <li className="flex items-center gap-2">
-              Careers{" "}
-              <span className="bg-pink-100 text-pink-500 text-[10px] px-2 py-0.5 rounded-full font-semibold">
-                Hiring!
-              </span>
-            </li>
-            <li>Contact Sales</li>
-            <li>Support</li>
-            <li>FAQ</li>
+            <li>Contact Us</li>
+            <li>FAQs</li>
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
-            <li>Licensing Agreement</li>
-            <li>Cookie Settings</li>
+            <li>Careers</li>
           </ul>
         </div>
       </div>
 
       {/* Copyright */}
       <div className="text-center mt-16 text-gray-500">
-        &copy; {new Date().getFullYear()} Your Company Name. All rights reserved.
+        &copy; {new Date().getFullYear()} Kalam Foundation. All rights reserved.
       </div>
     </footer>
   );

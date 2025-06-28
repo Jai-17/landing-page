@@ -83,10 +83,7 @@ const LandingPage = () => {
           viewport={{ margin: "-200px", once: true }}
           className="flex flex-wrap justify-center items-center gap-10 py-6 opacity-80"
         >
-          <Image src="/google.png" alt="Google" width={150} height={70} />
-          <Image src="/microsoft.png" alt="Microsoft" width={220} height={70} />
-          <Image src="/netflix.png" alt="Netflix" width={150} height={70} />
-          <Image src="/amazon.png" alt="Amazon" width={180} height={70} />
+          <Image src="/JPMorgan-Chase-Logo.png" alt="JP Morgan" width={150} height={70} />
         </motion.div>
       </section>
 
@@ -143,17 +140,17 @@ const LandingPage = () => {
           <FeatureCard
             title="Child Education"
             subtitle="Foundational learning programs in English, Math, and Science."
-            image="/feature-graphic.png"
+            image="/boy-child-school-learning-education-chalk-numbers.jpg"
           />
           <FeatureCard
             title="Women Empowerment"
             subtitle="Skill training, financial literacy, and livelihood support."
-            image="/feature-graphic.png"
+            image="/rural.jpg"
           />
           <FeatureCard
             title="Community Outreach"
             subtitle="Health camps, career guidance, and rural support drives."
-            image="/feature-graphic.png"
+            image="/Communityoutreach.png"
           />
         </motion.div>
       </section>
@@ -199,7 +196,7 @@ const LandingPage = () => {
         >
           {/* Replace with Kalam Foundation event or gallery images */}
           <TiltedCard
-            imageSrc="/kalam1.jpg"
+            imageSrc="/empowering-rural-women-harvesting-assam-north-east-india_1034537-66355.jpg"
             captionText="Literacy Drive"
             altText="Literacy Drive"
             rotateAmplitude={12}
@@ -208,7 +205,7 @@ const LandingPage = () => {
             overlayContent={<p>Village Outreach</p>}
           />
           <TiltedCard
-            imageSrc="/kalam2.jpg"
+            imageSrc="/jss-agriculture-practive-sept-2021-01.jpg"
             captionText="Vocational Training"
             altText="Training Program"
             rotateAmplitude={12}
@@ -217,7 +214,7 @@ const LandingPage = () => {
             overlayContent={<p>Women Empowerment</p>}
           />
           <TiltedCard
-            imageSrc="/kalam3.jpg"
+            imageSrc="/teaching-768x385.jpeg"
             captionText="Youth Workshop"
             altText="Youth Workshop"
             rotateAmplitude={12}
